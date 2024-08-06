@@ -49,10 +49,10 @@ function ICloud() {
 
                     <div className="box-2">
                         <img src={Icloudbox2} alt="box2" className="box-2-img" />
-                        <h2>
+                        <h2 id='box-2-heading'>
                             More storage plus additional features to protect your privacy
                         </h2>
-                        <p>
+                        <p className='box-2-txt'>
                             Upgrade to iCloud+ to get more storage and additional features like iCloud Private Relay, Hide My Email, and HomeKit Secure Video. You can even share your subscription with your family. Learn more at <Link to="#">apple.com/icloud.</Link>
                         </p>
                     </div>
